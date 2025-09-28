@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=" w-screen h-[80px] z-40 bg-transparent fixed drop-shadow-lg">
+      <div className=" w-screen h-[80px] z-40 bg-transparent sticky drop-shadow-lg">
         <div className=" sm:px-4 md:px-4 xl:px-10 flex justify-between items-center w-full h-full ">
           <div className="flex items-center justify-center">
-            <h1 className="px-2 py-1.5 m-1 font-extralight sm:text-2xl text-nowrap text-[#878e96]">
+            <h1 className="px-2 py-1.5 m-1 font-extralight sm:text-2xl xl:text-3xl xl:mt-5 text-nowrap text-[#878e96]">
               {"< "}
-              <span className="text-3xl sm:text-5xl text-white passions-conflict-regular text-center">
+              <span className="text-3xl sm:text-5xl xl:text-7xl text-white passions-conflict-regular text-center">
                 Rohan Kumar
               </span>
               {" />"}
