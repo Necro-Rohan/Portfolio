@@ -2,6 +2,7 @@ import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
 import { CircleArrowRight } from "lucide-react";
 import myImg from '../assets/rohan.jpeg';
+import Resume from "../assets/Resume-Rohan Kumar (7).pdf";
 
 
 const HeroSection = () => {
@@ -21,7 +22,7 @@ const HeroSection = () => {
           <span className="text-gray-300 text-base font-medium">
             a passionate
           </span>
-          <div className="text-red-400 italic mb-3">
+          <div className="text-red-400 italic m-0.5 md:m-2">
             <Typewriter
               words={[
                 "Frontend Developer",
@@ -38,25 +39,25 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-[100%] ">
-          <p className="text-lg text-gray-300 max-w-[350px] md:max-w-[500px] p-0 mb-3">
+        <div className="flex flex-col items-center justify-center w-[100%] mt-0">
+          <p className="text-md md:text-lg text-gray-300 max-w-[350px] md:max-w-[500px] p-0 mb-3">
             specialized in building beautiful, precise web applications that are
             easy and enjoyable for people to use.
           </p>
           <div className="hidden md:block md:text-center mt-1 md:mt-4 max-w-[350px] md:max-w-[500px]">
             <a
-              href="#"
+              href={Resume}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 inline-block px-3 md:px-6 py-3 font-semibold border-1  rounded-full shadow-lg hover:scale-105 transform transition duration-300"
+              className="mt-1 inline-block px-3 md:px-6 py-3 font-semibold border-1  rounded-full shadow-lg hover:scale-105 hover:border-blue-500 transform transition duration-300"
             >
               View CV
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/rohan-kumar-2b2ab9326/"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 inline-block px-2 ml-1 md:px-6 py-3 font-semibold shadow-lg hover:scale-105 transform transition duration-300"
+              className="mt-1 inline-block px-2 ml-1 md:px-6 py-3 font-semibold shadow-lg hover:scale-105 transform transition duration-300 text-blue-500"
             >
               Let's Connect{" "}
               <CircleArrowRight className="inline-block ml-1 mb-1" />
@@ -88,7 +89,7 @@ const HeroSection = () => {
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 inline-block px-2 ml-1 md:px-6 py-3 font-semibold shadow-lg hover:scale-105 transform transition duration-300"
+          className="mt-1 inline-block px-2 ml-1 md:px-6 py-3 font-semibold shadow-lg hover:scale-105 transform transition duration-300 text-blue-500"
         >
           Let's Connect <CircleArrowRight className="inline-block ml-1 mb-1" />
         </a>

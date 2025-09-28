@@ -8,7 +8,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=" w-screen h-[80px] z-40 bg-transparent sticky drop-shadow-lg">
+      <div
+        id="home"
+        className=" w-screen h-[80px] z-40 bg-transparent stick drop-shadow-lg"
+      >
         <div className=" sm:px-4 md:px-4 xl:px-10 flex justify-between items-center w-full h-full ">
           <div className="flex items-center justify-center">
             <h1 className="px-2 py-1.5 m-1 font-extralight sm:text-2xl xl:text-3xl xl:mt-5 text-nowrap text-[#878e96]">
@@ -21,17 +24,17 @@ const Navbar = () => {
           </div>
           {/* Pages link */}
           <div className="sm:flex items-center sm:space-x-4 md:space-x-6 lg:space-x-8">
-            <ul className="hidden lg:flex space-x-10 text-[#878e96] font-bold">
-              <li>
-                <a href="#">Home</a>
+            <ul className="hidden lg:flex space-x-10 text-[#878e96] font-bold ">
+              <li className="hover:text-blue-500  hover:!scale-115 transition">
+                <a href="#home">Home</a>
               </li>
-              <li>
-                <a href="#">About</a>
+              <li className="hover:text-blue-500 hover:!scale-115 transition">
+                <a href="#about">About</a>
               </li>
-              <li>
-                <a href="#">Skills</a>
+              <li className="hover:text-blue-500 hover:!scale-115 transition">
+                <a href="#skills">Skills</a>
               </li>
-              <li>
+              <li className="hover:text-blue-500 hover:!scale-115 transition">
                 <a href="#">Projects</a>
               </li>
             </ul>

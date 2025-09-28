@@ -62,12 +62,18 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="relative z-10 flex flex-col items-center justify-start text-center px-4 text-white min-h-screen w-full">
+    <div
+      id="skills"
+      className="relative z-10 flex flex-col items-center justify-start text-center px-4 text-white w-full"
+    >
       <div className="w-full mx-auto text-center space-y-8 shadow-lg p-10">
-        <h2 className="text-4xl font-bold">
-          What I Use to Build Stuff <Minus className="inline text-5xl" /> 👨🏼‍💻
-        </h2>
-        <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+        <div className="relative inline-block">
+          <h3 className="text-2xl md:text-4xl font-semibold text-gray-200">
+            What I Use to Build Stuff <Minus className="inline text-5xl" /> 👨🏼‍💻
+          </h3>
+          <p className=" mt-2 w-2/3 h-[1.5px] bg-blue-500"></p>
+        </div>
+        <p className="text-md md:text-lg text-gray-300 max-w-2xl mx-auto">
           You've got the idea; I've got the tools to make it happen. Here are
           the powerful tools and technologies I use to bring your ideas to life.
         </p>

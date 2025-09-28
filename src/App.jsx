@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar' 
-// import hero_background from './assets/gridbackgroundimg.jpg'
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import About from './components/About';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <div className="w-full mt-10">
           <About />
           <Skills />
+          <Projects />
         </div>
       </div>
     </>
