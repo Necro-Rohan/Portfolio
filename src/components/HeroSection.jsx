@@ -2,7 +2,7 @@ import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
 import { CircleArrowRight } from "lucide-react";
 import myImg from '../assets/rohan.jpeg';
-import Resume from "../assets/Resume-Rohan Kumar (7).pdf";
+import Resume from "../assets/resume.pdf";
 
 
 const HeroSection = () => {

@@ -3,7 +3,7 @@ import CoadFoad from '../assets/coadfoad.png'
 import GrindSystem from '../assets/GrindSystem.png'
 import MontyHall from '../assets/MontyHallSimulator.png'
 import RockPaperScissors from '../assets/RockPaperScissors2.png'
-import { Minus, Github } from "lucide-react";
+import { Minus, Github, LaptopMinimalCheck } from "lucide-react";
 
 const ProjectList = [
   {
@@ -46,10 +46,14 @@ const ProjectList = [
 
 const Projects = () => {
   return (
-    <div className="w-full max-w-5xl mx-auto text-center py-20 px-4 sm:px-10">
-      <div className="relative mb-12 text-center inline-block">
+    <div
+      id="projects"
+      className="w-full max-w-5xl mx-auto text-center py-20 px-4 sm:px-10"
+    >
+      <div className="group relative mb-12 text-center inline-block">
         <h3 className="relative text-2xl md:text-4xl font-semibold text-gray-200 inline-flex items-center gap-2">
-          What I've Built <Minus className="text-5xl" /> 👨🏼‍💻
+          What I've Built <Minus className="inline text-5xl text-rose-500" />
+          <LaptopMinimalCheck className="inline size-7 md:size-10 ml-1 group-hover:text-blue-500" />
           <span className="absolute left-0 bottom-[-8px] h-[2px] bg-blue-500 w-2/3"></span>
         </h3>
       </div>
@@ -88,7 +92,7 @@ const Projects = () => {
                 ))}
               </div>
             </div>
-            
+
             <div className="flex text-center justify-center gap-3 mt-auto ">
               <a
                 href={project.github}

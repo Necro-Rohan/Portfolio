@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className='App relative w-full min-h-screen  bg-[url("./assets/backgroundImg.png")] bg-center bg-fixed bg-cover'>
+      <div className='App relative w-full min-h-screen bg-[url("./assets/backgroundImg.png")] bg-center bg-fixed bg-cover'>
         <Navbar />
         <div className="w-full mt-5 md:my-30 pt-10">
           <HeroSection />

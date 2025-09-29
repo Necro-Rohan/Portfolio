@@ -1,5 +1,5 @@
 import React from "react";
-import { Minus } from "lucide-react";
+import { Minus, LaptopMinimal,LaptopMinimalCheck } from "lucide-react";
 
 const skills = [
   // This time, we only need the original skills array, not the duplicated one.
@@ -67,9 +67,11 @@ const Skills = () => {
       className="relative z-10 flex flex-col items-center justify-start text-center px-4 text-white w-full"
     >
       <div className="w-full mx-auto text-center space-y-8 shadow-lg p-10">
-        <div className="relative inline-block">
+        <div className="group relative inline-block">
           <h3 className="text-2xl md:text-4xl font-semibold text-gray-200">
-            What I Use to Build Stuff <Minus className="inline text-5xl" /> 👨🏼‍💻
+            What I Use to Build Stuff{" "}
+            <Minus className="inline text-5xl text-rose-500" />
+            <LaptopMinimal className="inline size-7 md:size-10 ml-2 group-hover:text-blue-500" />
           </h3>
           <p className=" mt-2 w-2/3 h-[1.5px] bg-blue-500"></p>
         </div>
@@ -82,14 +84,14 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="relative flex-shrink-0 w-full aspect-square bg-gray-900/50 rounded-xl p-4 shadow-sm transform transition-all duration-300 hover:!scale-105"
+              className="relative flex-shrink-0 w-full aspect-square bg-gray-900/50 rounded-xl p-4 shadow-sm transform transition-all duration-300 hover:!scale-115"
             >
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-rose-500 to-transparent" />
               <div className="flex flex-col items-center justify-center h-full gap-1.5 md:gap-3">
                 <img
                   src={skill.logo}
                   alt={skill.name}
-                  className="w-10 h-10 md:w-12 md:h-12 object-contain"
+                  className="w-10 h-10 md:w-12 md:h-12 object-contain bg-white rounded-sm"
                 />
                 <h3 className="text-sm md:text-base font-semibold text-white text-center">
                   {skill.name}
