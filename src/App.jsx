@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import './App.css'
 import Navbar from './components/Navbar' 
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
