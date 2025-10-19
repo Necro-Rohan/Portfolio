@@ -1,5 +1,5 @@
 import React from 'react'
-import CoadFoad from '../assets/coadfoad.png'
+import CoadFoad from '../assets/CoadFoad.png'
 import GrindSystem from '../assets/GrindSystem.png'
 import MontyHall from '../assets/MontyHallSimulator.png'
 import RockPaperScissors from '../assets/RockPaperScissors2.png'
