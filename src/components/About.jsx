@@ -81,7 +81,7 @@ const About = () => {
             </h3>
             <p className=" mt-2 w-2/3 h-[1.5px] bg-blue-500"></p>
           </div>
-          <p className="text-md text-gray-400 max-w-2xl mx-auto text-start font-light">
+          <p className="text-md text-gray-400 max-w-3xl mx-auto text-start font-light">
             I'm currently a Computer Science student at the Newton School of
             Technology, Pune with a passion for software development,
             applications, engineering, and AI. I always love creating beautiful
